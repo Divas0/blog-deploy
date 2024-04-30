@@ -2,9 +2,8 @@ import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { login, logout } from "./store/authSlice";
 import authService from "./appwrite/auth";
-import Footer from "./components/footer/Footer";
-import Header from "./components/header/Header";
-import { Outlet, Route, Routes } from "react-router-dom";
+
+import {  Route, Routes } from "react-router-dom";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import AllPosts from "./pages/AllPost";

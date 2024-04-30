@@ -11,8 +11,6 @@ export default function Post() {
     const navigate = useNavigate();
 
    
-  
-
     const userData = useSelector((state) => state.auth.userData);
  
     console.log(userData)
